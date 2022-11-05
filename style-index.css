@@ -1,0 +1,35 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-image: url(/img/back4.jpg);
+    background-size: 100vw 100vh;
+}
+
+#first-text {
+    font-size: 80px;
+}
+
+
+#header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+  
+#btnstart{
+    border-radius: 10px;
+    width: 150px;
+    font-size: 50px;
+    background-color: rgb(131, 204, 178);
+
+}
+
+#btnstart, a {
+    text-decoration: none;
+    color: inherit;
+}
+
